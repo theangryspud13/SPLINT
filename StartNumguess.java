@@ -1,3 +1,4 @@
+package GuessingGame;
 import java.util.Scanner;
 
 public class StartNumguess {

@@ -1,3 +1,4 @@
+package GuessingGame;
 import java.lang.invoke.StringConcatException;
 import java.util.Random;
 import java.util.Scanner;
@@ -9,6 +10,9 @@ public class GameNumguess {
         //gets answer number
         Random ran = new Random();
         int ranInt = ran.nextInt(b + 1);
+        if (ranInt == 0){
+            ranInt = 1;
+        }
         byte ranByte = (byte)ranInt;
 
         return ranByte;

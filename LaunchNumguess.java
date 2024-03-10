@@ -1,3 +1,4 @@
+package GuessingGame;
 import java.lang.invoke.StringConcatException;
 
 public class LaunchNumguess {
