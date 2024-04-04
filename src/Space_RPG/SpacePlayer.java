@@ -7,6 +7,7 @@ public class SpacePlayer implements Serializable {
     public String playerName;
     public int age;
     public int gender;
+    public Object ss;
 
     public SpacePlayer() {
         // Default constructor

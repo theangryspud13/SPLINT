@@ -30,8 +30,9 @@ public class SpaceLaucher implements Serializable{
             spg.save(sp.playerName);
             SpaceShip ss = new SpaceShip(0, 0, 0, null);
             sp.spaceShip = ss.sSIntro();
+            spg.tutorialMission(sp);
         }
-        System.out.println(sp);
+        System.out.println(sp.spaceShip.name);
     }
     public SpacePlayer getPlayer(){
         return sp;
